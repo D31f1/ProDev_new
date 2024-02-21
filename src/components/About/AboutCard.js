@@ -8,33 +8,43 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            Hola a todos, somos{" "}
+            <span className="purple">Delfina Corra y Ulises Bergesio </span>
+            de{" "}
+            <span className="purple"> Villa Maria - Córdoba, Argentina.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
+            Somos un equipo de apasionados diseñadores web con formación en
+            ingeniería de sistemas y desarrolladores full stack.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            Nos dedicamos a crear experiencias digitales impactantes que
+            combinan la estética visual con la funcionalidad excepcional.
             <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+            <br />3 Puntos Fuertes:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Enfoque Integrado: Diseñamos y desarrollamos
+              sitios web de manera colaborativa para garantizar calidad visual y
+              funcional.
             </li>
+            <br />
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Experiencia Técnica Profunda: Con habilidades en
+              ingeniería y desarrollo full stack, creamos sitios web óptimos en
+              rendimiento y seguridad.
             </li>
+            <br />
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Innovación Constante: Estamos al tanto de las
+              últimas tendencias y herramientas para ofrecer soluciones web
+              innovadoras y efectivas.
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "¡Esfuércese por construir cosas que marquen la diferencia!"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">ProDev Technology</footer>
         </blockquote>
       </Card.Body>
     </Card>
