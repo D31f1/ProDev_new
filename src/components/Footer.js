@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
-  AiFillGithub,
-  AiOutlineTwitter,
+  //AiFillGithub,
+  //AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn, FaFacebook, FaWhatsapp } from "react-icons/fa";
+import { /*FaLinkedinIn,*/ FaFacebook, FaWhatsapp } from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
@@ -23,7 +23,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/soumyajit4419"
+                href="https://wa.me/5493537666748?text=Hola!%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s%20acerca%20de..."
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -33,7 +33,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/Soumyajit4419"
+                href="https://www.facebook.com/profile.php?id=61556095847269"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -53,7 +53,7 @@ function Footer() {
             </li> */}
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/soumyajit4419"
+                href="https://www.instagram.com/prodevtechnology/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"

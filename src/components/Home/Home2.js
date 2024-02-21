@@ -3,11 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
-  AiFillGithub,
-  AiOutlineTwitter,
+  //AiFillGithub,
+  //AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn, FaFacebook, FaWhatsapp } from "react-icons/fa";
+import {/*FaLinkedinIn,*/ FaFacebook, FaWhatsapp } from "react-icons/fa";
 import laptopImg from "../../Assets/about.png";
 
 function Home2() {
@@ -113,7 +113,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://wa.me/5493537666748?text=Hola!%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s%20acerca%20de..."
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -123,7 +123,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://www.facebook.com/profile.php?id=61556095847269"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -143,7 +143,7 @@ function Home2() {
               </li> */}
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/prodevtechnology/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
