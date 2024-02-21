@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
@@ -15,68 +14,66 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          Nuestros recientes <strong className="purple">Trabajos </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Aqui estan algunos proyectos en los que hemos trabajado recientemente
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={"https://res.cloudinary.com/dtfp8liuv/image/upload/c_crop,w_676,h_380,ar_16:9/v1708557666/ProDev%20Portfolio/buengusto_2_fm9s9l.png"}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="El Buen Gusto"
+              description="Landing page visualmente atractiva y persuasiva para un servicio de catering exclusivo. El diseño centrado en la experiencia del usuario y la implementación de llamadas a la acción efectivas resultaron en una mayor generación de clientes potenciales."
+              ghLink="https://github.com/UBergesio/El_buen_gusto"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={"https://res.cloudinary.com/dtfp8liuv/image/upload/c_crop,w_500,h_380/v1708558629/ProDev%20Portfolio/Dise%C3%B1o_sin_t%C3%ADtulo__2_-removebg-preview_q0dd9r.png"}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="CodeCraft Templates"
+              description="E-commerce de templates con una interfaz intuitiva y atractiva, permitiendo a los usuarios explorar y adquirir fácilmente una variedad de plantillas de alta calidad. La integración de funciones de búsqueda avanzada y opciones de pago seguras garantizan una experiencia de compra fluida."
+              ghLink="https://github.com/FrancoA56/FinalProjectClient"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={"https://res.cloudinary.com/dtfp8liuv/image/upload/c_crop,w_500,h_380/v1708558892/ProDev%20Portfolio/Dise%C3%B1o_sin_t%C3%ADtulo__3_-removebg-preview_twyffo.png"}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Punto Cars"
+              description="Desarrollé un e-commerce para una agencia de autos, ofreciendo una plataforma intuitiva para que los clientes puedan explorar y comprar vehículos. La implementación de características como búsqueda avanzada, comparación de modelos y solicitud de prueba de manejo garantizó una experiencia de usuario completa y satisfactoria."
+              ghLink="https://github.com/D31f1/punto_cars_multimarca"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={"https://res.cloudinary.com/dtfp8liuv/image/upload/c_crop,w_500,h_380/v1708558893/ProDev%20Portfolio/Dise%C3%B1o_sin_t%C3%ADtulo__4_-removebg-preview_l2luks.png"}
+              isBlog={false}
+              title="Rick And Morty"
+              description="Desarrollé una aplicación web usando una API de Rick and Morty durante mi curso en la academia. Esta integración mostró datos dinámicos sobre personajes, episodios y ubicaciones, demostrando mi habilidad para trabajar con APIs en proyectos web."
+              ghLink="https://github.com/UBergesio/Proyecto_Rick_and_Morty"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={"https://res.cloudinary.com/dtfp8liuv/image/upload/c_crop,w_500,h_380/v1708558890/ProDev%20Portfolio/Dise%C3%B1o_sin_t%C3%ADtulo__5_-removebg-preview_bdhrij.png"}
+              isBlog={false}
+              title="Pokemons"
+              description="Esta aplicación permitía a los usuarios explorar información dinámica sobre Pokémon, como estadísticas, habilidades y tipos, demostrando mi capacidad para trabajar con datos externos en proyectos web."
+              ghLink="https://github.com/UBergesio/Pokemons_Proyect"
+            />
+          </Col>
+
+      
+
+{/*           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
@@ -86,7 +83,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>

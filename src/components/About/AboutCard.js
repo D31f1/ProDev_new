@@ -14,7 +14,7 @@ function AboutCard() {
             <span className="purple"> Villa Maria - Córdoba, Argentina.</span>
             <br />
             Somos un equipo de apasionados diseñadores web con formación en
-            ingeniería de sistemas y desarrolladores full stack.
+            ingeniería de sistemas y desarrollo full stack.
             <br />
             Nos dedicamos a crear experiencias digitales impactantes que
             combinan la estética visual con la funcionalidad excepcional.
