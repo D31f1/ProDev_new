@@ -741,3 +741,18 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+.whatsapp {
+  position:fixed;
+  width:1.6em;
+  /*height:1.5em;*/
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  z-index:100;
+  padding-bottom: 3px;
+}
